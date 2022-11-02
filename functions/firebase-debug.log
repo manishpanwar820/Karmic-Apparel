@@ -1,0 +1,81 @@
+[debug] [2022-04-26T11:11:50.203Z] ----------------------------------------------------------------------
+[debug] [2022-04-26T11:11:50.205Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aryan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-04-26T11:11:50.205Z] CLI Version:   10.7.1
+[debug] [2022-04-26T11:11:50.205Z] Platform:      win32
+[debug] [2022-04-26T11:11:50.205Z] Node Version:  v16.14.2
+[debug] [2022-04-26T11:11:50.206Z] Time:          Tue Apr 26 2022 16:41:50 GMT+0530 (India Standard Time)
+[debug] [2022-04-26T11:11:50.206Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-26T11:11:50.266Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-26T11:11:50.267Z] > authorizing via signed-in user (manishpanwar0136@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-04-26T11:11:50.295Z] [hub] writing locator at C:\Users\Aryan\AppData\Local\Temp\hub-karmic-597af.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-04-26T11:11:50.317Z] defaultcredentials: writing to file C:\Users\Aryan\AppData\Roaming\firebase\manishpanwar0136_gmail_com_application_default_credentials.json
+[debug] [2022-04-26T11:11:50.318Z] Setting GAC to C:\Users\Aryan\AppData\Roaming\firebase\manishpanwar0136_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Aryan\\AppData\\Roaming\\firebase\\manishpanwar0136_gmail_com_application_default_credentials.json"}}
+[debug] [2022-04-26T11:11:50.320Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/karmic-597af/adminSdkConfig [none]
+[debug] [2022-04-26T11:11:50.814Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/karmic-597af/adminSdkConfig 200
+[debug] [2022-04-26T11:11:50.814Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/karmic-597af/adminSdkConfig {"projectId":"karmic-597af","storageBucket":"karmic-597af.appspot.com","locationId":"us-central"}
+[debug] [2022-04-26T11:11:50.827Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/karmic-597af/sites 
+[debug] [2022-04-26T11:11:52.678Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/karmic-597af/sites 200
+[debug] [2022-04-26T11:11:52.679Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/karmic-597af/sites {"sites":[{"name":"projects/1025594453070/sites/karmic-597af","defaultUrl":"https://karmic-597af.web.app","appId":"1:1025594453070:web:8bfef61eab48510688a71f","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-26T11:11:52.679Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/karmic-597af/webApps/1:1025594453070:web:8bfef61eab48510688a71f/config [none]
+[debug] [2022-04-26T11:11:54.084Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/karmic-597af/webApps/1:1025594453070:web:8bfef61eab48510688a71f/config 200
+[debug] [2022-04-26T11:11:54.084Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/karmic-597af/webApps/1:1025594453070:web:8bfef61eab48510688a71f/config {"projectId":"karmic-597af","appId":"1:1025594453070:web:8bfef61eab48510688a71f","storageBucket":"karmic-597af.appspot.com","locationId":"us-central","apiKey":"AIzaSyCDLaew37hTTp-S-QFXlpC1ool7ECkrGuM","authDomain":"karmic-597af.firebaseapp.com","messagingSenderId":"1025594453070","measurementId":"G-QEYBSBEGGJ"}
+[info] i  hosting: Serving hosting files from: y {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1my\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-04-26T11:11:54.120Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-04-26T11:11:54.120Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-04-26T11:11:54.121Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Aryan\\.cache\\firebase\\emulators\\ui-v1.6.5\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Aryan\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.5\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-04-26T11:11:54.240Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "C:\Users\Aryan\Desktop\Amazon-Clone\amazon-clone\functions\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Aryan\\Desktop\\Amazon-Clone\\amazon-clone\\functions\\functions\" for Cloud Functions..."}}
+[debug] [2022-04-26T11:11:54.395Z] Validating nodejs source
+[debug] [2022-04-26T11:11:57.907Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-04-26T11:11:57.907Z] Building nodejs source
+[debug] [2022-04-26T11:11:57.907Z] Analyzing nodejs backend spec
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
